@@ -46,7 +46,38 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 body {
+    width: 80%;
     color: blue;
+    border: 5px solid purple;
+}
+header {
+    display: flex;
+    justify-content: center;
+
+}
+nav {
+    width: 80%;
+    border: 5px solid purple;
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    border-radius: 30%;
+    width: 130px;
+    height: 60px;
+    /* height: 30px; */
+}
+#Plan {
+    background-color: #FF764E;
+}
+#Learn {
+    background-color: #5ED3EB;
+}
+#Get {
+    background-color: #FFCD69;
+}
+footer {
+    display: flex;
+    justify-content: center;
 }
