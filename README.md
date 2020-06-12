@@ -1,3 +1,5 @@
+# Solution to buttons looking too round was to use px instead of % radius.
+
 # Intro CSS Module Project
 
 ## User Interface and Git
