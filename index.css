@@ -1,12 +1,24 @@
-/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; box-sizing: border-box; } /* THIS IS THE BEGINNING OF BODY  */
+
+
+
+:root {
+    font-size: 62.5%;
+      background-color: #a58160;
+      /* smooth the color transition */
+      transition: background-color .6s;
+    }
+  :root:hover {
+      background-color: #fdfdfd
+    }
 body {
     max-width: 800px;
     color: blue;
-    border: 5px solid purple;
+    /* border: 5px solid purple; */
 }
 #headimg {
+    margin-top: 15px;
     border-radius: 100%;
-    width: 30%
+    width: 150px;
     
 }
 nav {
@@ -14,24 +26,27 @@ nav {
         max-width: 800px;
         width: 100%;
         /* border: 3px solid green; */
-        padding: 25px 0;  /* Top and bottom space of the nav */
+        padding: 20px 0;  /* Top and bottom space of the nav */
         text-align: center;  /* This is what brought left leaning to center */
 }
 nav .button {
     /* border: 3px solid green; */
-    padding: 1% auto;
+    padding: 1%;
+    color: white;
+    font-size: small;
     margin-left: 5%;
     margin-right: 5%;
-    max-width: 150px;
-    min-width: 100px;
+    max-width: 100px;
+    min-width: 90px;
     width: 15%;
-    line-height: 1.5;
+    height: 40px;
+    line-height: 1.0;
     display: inline-block;
     vertical-align: middle;
 }
 .button {
     /* border: 3px solid green; */
-    border-radius: 20%;
+    border-radius: 10px;
     width: 130px;
     height: 60px;
     /* height: 30px; */
@@ -46,18 +61,63 @@ nav .button {
     background-color: #FFCD69;
 }
 /* THIS IS THE END OF REQUIRED DATA IN THE NAV  */
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
-    /* margin: 0 auto; */
+#line {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
+img {
+    float:left;
+    /* display: inline; */
+    margin: 0 25px;
+}
+div .titletext {
+    /* float:right; */
+    display: inline;
+    margin: 40px auto;
+}
+h1 {
+    margin-top: 0;
+    margin-right: 3%;
+    color:black;
+    font-size: xx-large;
+    text-align: center;
+}
+h3 {
+    color:black;
+    font-size: small;
+    text-align: center;
+    /* width: 70%; */
+}
+.splash {
+    margin-bottom: 30px;
+}
+.textbox {
+    background-color: rgb(207, 133, 183);
+    color: white;
+    margin: 0 2%;
+    padding: .25% 4%;
+    font-size: small;
+    text-align: center;
+}
+h4 {
+    width: 25%;
+    text-align: center;
+    margin: 20px auto;
+    color: black;
+}
+#icon {
+    Width: 80px;
+    align-items: center;
+    margin: 20px 45%;
+}
+#canyon {
+    height: 150px;
+    width: 100%;
+    margin: 0;
+}
+footer {
+    margin-top: 170px;
+}
+
+
+
+/* footer {} */
