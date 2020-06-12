@@ -11,12 +11,13 @@
       background-color: #fdfdfd
     }
 body {
-    max-width: 800px;
+    max-width: 600px;
     color: blue;
     /* border: 5px solid purple; */
 }
 #headimg {
     margin-top: 15px;
+    margin-left: 10%;
     border-radius: 100%;
     width: 150px;
     
