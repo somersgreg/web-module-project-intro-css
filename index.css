@@ -1,0 +1,124 @@
+
+
+
+:root {
+    font-size: 62.5%;
+      background-color: #a58160;
+      /* smooth the color transition */
+      transition: background-color .6s;
+    }
+  :root:hover {
+      background-color: #fdfdfd
+    }
+body {
+    max-width: 600px;
+    color: blue;
+    /* border: 5px solid purple; */
+}
+#headimg {
+    margin-top: 15px;
+    margin-left: 10%;
+    border-radius: 100%;
+    width: 150px;
+    
+}
+nav {
+        margin: auto;
+        max-width: 800px;
+        width: 100%;
+        /* border: 3px solid green; */
+        padding: 20px 0;  /* Top and bottom space of the nav */
+        text-align: center;  /* This is what brought left leaning to center */
+}
+nav .button {
+    /* border: 3px solid green; */
+    padding: 1%;
+    color: white;
+    font-size: small;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 100px;
+    min-width: 90px;
+    width: 15%;
+    height: 40px;
+    line-height: 1.0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.button {
+    /* border: 3px solid green; */
+    border-radius: 10px;
+    width: 130px;
+    height: 60px;
+    /* height: 30px; */
+}
+#Plan {
+    background-color: #FF764E;
+}
+#Learn {
+    background-color: #5ED3EB;
+}
+#Get {
+    background-color: #FFCD69;
+}
+/* THIS IS THE END OF REQUIRED DATA IN THE NAV  */
+#line {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+img {
+    float:left;
+    /* display: inline; */
+    margin: 0 25px;
+}
+div .titletext {
+    /* float:right; */
+    display: inline;
+    margin: 40px auto;
+}
+h1 {
+    margin-top: 0;
+    margin-right: 3%;
+    color:black;
+    font-size: xx-large;
+    text-align: center;
+}
+h3 {
+    color:black;
+    font-size: small;
+    text-align: center;
+    /* width: 70%; */
+}
+.splash {
+    margin-bottom: 30px;
+}
+.textbox {
+    background-color: rgb(207, 133, 183);
+    color: white;
+    margin: 0 2%;
+    padding: .25% 4%;
+    font-size: small;
+    text-align: center;
+}
+h4 {
+    width: 25%;
+    text-align: center;
+    margin: 20px auto;
+    color: black;
+}
+#icon {
+    Width: 80px;
+    align-items: center;
+    margin: 20px 45%;
+}
+#canyon {
+    height: 150px;
+    width: 100%;
+    margin: 0;
+}
+footer {
+    margin-top: 170px;
+}
+
+
+
+/* footer {} */
