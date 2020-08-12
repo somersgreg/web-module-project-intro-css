@@ -2,3 +2,35 @@
     display:flex;
     flex-direction:row;
 }
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  header {
+      display: flex;
+      justify-content: space-around;
+      top: 0;
+      position: sticky;
+      background-color: bisque;
+  }
+.splash{
+    display:flex;
+    flex-direction:row;
+}
+#line {
+        background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+nav {
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px 0;  /* Top and bottom space of the nav */
+    text-align: center;  /* This is what brought left leaning to center */
+}
+.button {
+border-radius: 10px;
+width: 100px;
+height: 40px;
+margin: 10px;
+}
