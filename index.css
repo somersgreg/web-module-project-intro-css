@@ -1,36 +1,68 @@
+/* :root {
+    font-size: 62.5%;
+} */
+* {
+    border: 1px solid red;
+}
+body {
+    max-width: vw;
+    color: blue;
+}
 .title {
     display:flex;
     flex-direction:row;
 }
-.sticky {
+nav.sticky {
     position: sticky;
     top: 0;
     width: 100%;
   }
-  header {
-      display: flex;
+header {
+      display: none;
       justify-content: space-around;
       top: 0;
       position: sticky;
       background-color: bisque;
+      border-radius: 20px;;
   }
-.splash{
-    display:flex;
-    flex-direction:row;
-}
-#line {
-        background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-}
 nav {
-    margin: auto;
-    max-width: 800px;
-    width: 100%;
-    padding: 20px 0;  /* Top and bottom space of the nav */
-    text-align: center;  /* This is what brought left leaning to center */
+    margin:  auto;
+    max-width: 80%;
+    text-align: center;
 }
 .button {
 border-radius: 10px;
 width: 100px;
 height: 40px;
-margin: 10px;
+margin: 0 50px;
+}
+#Plan {
+    background-color: #FF764E;
+}
+#Learn {
+    background-color: #5ED3EB;
+}
+#Get {
+    background-color: #FFCD69;
+}
+#line {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+/* THIS IS THE END OF REQUIRED DATA IN THE NAV  */
+
+.splash{
+    display:flex;
+    flex-direction:row;
+}
+div#ball {
+    width: 30%;;
+}
+#ball img{
+    border-radius: 100%;
+    width: 70%;
+    margin-left:20%;
+}
+div#text {
+    text-align: center;
+    width:70%;
 }
