@@ -1,0 +1,46 @@
+
+!DOCTYPE html
+All HTML documents must start with a <!DOCTYPE> declaration.
+The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.
+In HTML 5, the declaration is simple:  Type ! + TAB = <!doctype html>
+
+REL
+The rel attribute is used to define the relationship between the linked file and the HTML document. REL=StyleSheet specifies a persistent or preferred style while REL="Alternate StyleSheet" defines an alternate style.  -->
+
+HREF
+href means “hyperlink reference.” Links on web pages are created using the HTML anchor tag, and it’s the tag attribute that contains the website URL or location you will hit if you click a link.
+There are a few ways to use anchor tags with the href attribute.
+External link: you navigate to a page outside this website. The link will fail unless the URL starts with “http://”.
+<a href="http://facebook.com">Facebook</a> 
+Internal link: you navigate to another page in the same website. The URL can be relative.
+<a href="../products">Products</a> 
+Anchor: navigate to part of the page you’re on, like a Back to Top link. Use the id of an element on the page instead of a URL. Preface the id with a #.
+<a href="#top">Back to top</a> 
+Scripted link: the link executes some script before you navigate to another page.
+<a href="validateUserInput();">Submit</a> 
+If you see an error that references the HREF attribute, there’s a pretty good chance that a URL or anchor is poorly formed in an anchor tag somewhere.
+
+BR
+A break helps to pull a thing away from an edge.
+
+HR
+A Horizontal Rule has a lot of uses and can be styled inline as I did and elsewhere.
+
+BUTTON
+There are three types of buttons:
+submit — Submits the current form data. (This is default.)
+reset — Resets data in the current form.
+button — Just a button. Its effects must be controlled by something else (that is, with JavaScript).
+It used to be the case that buttons primarily appeared in the context of forms, where the default submit behavior made perfect sense. Today, it is common to see buttons in all sorts of in-browser app contexts, and so it isn’t always clear at first glance at the markup. Therefore, it is a good practice to always declare the type of a button explicitly.
+<form action="/button-type"> <button type="button" onclick="alert('This button does nothing.')">Click me for no reason!</button><br><br> <label for="name">Name</label><br> <input name="name"><br><br> <button type="reset">Reset the form!</button><br><br> <button type="submit" disabled>Submit (disabled)</button> </form>
+
+LINK TOP/BOTTOM
+You dont need to create an  id="top" in an <a> or <p> or <whatever> to work but if you want to go to a more specific place then throw an id in the tag and use an href="#thatID" and attach it to a button or just >text< to link it.
+
+HEADER
+Used along with the nav because the nav is the buttons but the header is the box they are in.  This way I can add things near the buttons if I like also. 
+
+
+
+
+
